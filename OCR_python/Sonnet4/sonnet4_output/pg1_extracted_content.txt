@@ -1,0 +1,147 @@
+================================================================================
+SONNET 4 PDF EXTRACTION RESULTS
+================================================================================
+
+PDF File: pg1.pdf
+Pages Processed: 1
+Total Content: 2591 characters
+
+================================================================================
+METADATA
+================================================================================
+format: PDF 1.7
+title: 101 SOP103354 03FEB25 JEN_no annotation.pdf
+author: 
+subject: 
+keywords: 
+creator: 
+producer: Microsoft: Print To PDF
+creationDate: D:20250924104458+05'30'
+modDate: D:20250924104458+05'30'
+trapped: 
+encryption: None
+
+================================================================================
+DOCUMENT SUMMARY
+================================================================================
+# Comprehensive Summary: Fluorescence Assay Results - Experiment #1
+
+## Document Overview
+**Document Type:** Laboratory analytical report  
+**Title:** Experiment #1 - Fluorescence Assay Results  
+**Date:** February 3, 2025  
+**Operator:** jdea  
+**Status:** QC Approved (February 4, 2025)
+
+## Experimental Setup
+This document reports results from a fluorescence-based assay conducted using a SpectraMax M3 plate reader. The experiment utilized specific fluorescence parameters:
+- **Excitation wavelength:** 365 nm
+- **Emission wavelength:** 440 nm  
+- **Cutoff filter:** 435 nm
+- **Reading conditions:** 6 flashes per read, auto PMT settings
+- **Temperature:** 20.2°C (mean)
+
+## Main Sections and Content
+
+### 1. Standard Curve Analysis
+The assay included a 6-point standard curve (0.0 to 2.5 concentration units) showing excellent linearity:
+- Standards ranged from 25,544 fluorescence units (0.0 std) down to 2,356 units (0.5 std), then increased linearly to 11,182 units (2.5 std)
+- Back-calculated concentrations showed high accuracy (99.42% to 101.20% recovery)
+- Quality control ratio (0.5 μM/0.0 μM) = 92.240
+
+### 2. Sample and Control Results
+- **Blank control (MUI):** 660.08 fluorescence units
+- **Reference sample:** 6,996.6 units
+- **Test samples 1-3:** Results ranging from 6,972 to 7,410 units (all similar to reference)
+- **Samples 4-6:** No data collected
+
+### 3. Quality Control Information
+- Document follows approved SOP protocol (NVT615/2025Q1/101 SOP1033S4)
+- QC verification completed and approved
+- Proper documentation chain maintained
+
+## Key Findings and Data Quality
+- The standard curve demonstrates excellent assay performance with consistent back-calculation accuracy
+- Sample results show good reproducibility among tested samples (1-3)
+- The assay appears to be measuring pmole-level concentrations
+- Data collection was systematic and well-documented
+
+## Document Purpose and Context
+This appears to be a quantitative fluorescence assay, likely for biochemical or pharmaceutical analysis, designed to measure specific analyte concentrations in unknown samples against a calibrated standard curve. The high level of QC documentation suggests this is part of a regulated analytical environment, possibly for drug development or clinical testing applications.
+
+**Document Status:** Page 1 of 2 (additional pages may contain further analysis or interpretation)
+
+================================================================================
+STRUCTURED DATA
+================================================================================
+{
+  "raw_extraction": "```json\n{\n  \"document_info\": {\n    \"title\": \"Document Analysis: Experiment #1 - Fluorescence Assay Results\",\n    \"experiment_id\": \"Experiment#1\",\n    \"document_type\": \"Fluorescence Assay Results\"\n  },\n  \"instrument_settings\": {\n    \"endpoint\": \"Fluorescence\",\n    \"parameters\": [\"Ex\", \"Auto Cutoff\", \"Em\"],\n    \"lm1_values\": [365, 435, 440],\n    \"pmt_optics\": \"Auto\",\n    \"reads_per_flash\": 6,\n    \"wavelength_combination\": \"fLm1\"\n  },\n  \"instrument_info\": {\n    \"model\": \"SpectraMax M3\",\n    \"rom_version\": \"v3.0.22 16Feb11\",\n    \"operator\": \"jdea\",\n    \"mean_temperature\": \"20.2\u00b0C\"\n  },\n  \"timing_info\": {\n    \"start_read\": \"10:32 03-Feb-2025\",\n    \"read_dates\": [\n      \"03-Feb-2025 10:11\",\n      \"03-Feb-2025 10:12\",\n      \"03-Feb-2025 10:13\",\n      \"03-Feb-2025 10:14\",\n      \"03-Feb-2025 10:15\",\n      \"03-Feb-2025 10:27\",\n      \"03-Feb-2025 10:28\",\n      \"03-Feb-2025 10:30\",\n      \"03-Feb-2025 10:31\",\n      \"03-Feb-2025 10:32\"\n    ]\n  },\n  \"well_data\": {\n    \"standard_curve\": [\n      {\n        \"well\": \"A1\",\n        \"type\": \"0.0 Std\",\n        \"value\": 25544,\n        \"reduced_value\": 25544,\n        \"timestamp\": \"03-Feb-2025 10:11\"\n      },\n      {\n        \"well\": \"A2\",\n        \"type\": \"0.5 Std\",\n        \"value\": 2356.2,\n        \"reduced_value\": 2356.2,\n        \"timestamp\": \"03-Feb-2025 10:12\"\n      },\n      {\n        \"well\": \"A3\",\n        \"type\": \"1.0 Std\",\n        \"value\": 4613.0,\n        \"reduced_value\": 4613.0,\n        \"timestamp\": \"03-Feb-2025 10:13\"\n      },\n      {\n        \"well\": \"A4\",\n        \"type\": \"1.5 Std\",\n        \"value\": 6842.5,\n        \"reduced_value\": 6842.5,\n        \"timestamp\": \"03-Feb-2025 10:13\"\n      },\n      {\n        \"well\": \"A5\",\n        \"type\": \"2.0 Std\",\n        \"value\": 9023.8,\n        \"reduced_value\": 9023.8,\n        \"timestamp\": \"03-Feb-2025 10:14\"\n      },\n      {\n        \"well\": \"A6\",\n        \"type\": \"2.5 Std\",\n        \"value\": \"1.1e4\",\n        \"reduced_value\": \"1.1e4\",\n        \"timestamp\": \"03-Feb-2025 10:15\"\n      }\n    ],\n    \"samples\": [\n      {\n        \"well\": \"B1\",\n        \"type\": \"MUI Blank\",\n        \"value\": 660.08,\n        \"reduced_value\": 660.08,\n        \"timestamp\": \"03-Feb-2025 10:27\"\n      },\n      {\n        \"well\": \"B2\",\n        \"type\": \"Reference\",\n        \"value\": 6996.6,\n        \"reduced_value\": 6996.6,\n        \"timestamp\": \"03-Feb-2025 10:28\"\n      },\n      {\n        \"well\": \"B3\",\n        \"type\": \"Sample 1\",\n        \"value\": 7061.5,\n        \"reduced_value\": 7061.5,\n        \"timestamp\": \"03-Feb-2025 10:30\"\n      },\n      {\n        \"well\": \"B4\",\n        \"type\": \"Sample 2\",\n        \"value\": 6971.6,\n        \"reduced_value\": 6971.6,\n        \"timestamp\": \"03-Feb-2025 10:31\"\n      },\n      {\n        \"well\": \"B5\",\n        \"type\": \"Sample 3\",\n        \"value\": 7409.7,\n        \"reduced_value\": 7409.7,\n        \"timestamp\": \"03-Feb-2025 10:32\"\n      },\n      {\n        \"well\": \"B6\",\n        \"type\": \"Sample 4\",\n        \"value\": null,\n        \"reduced_value\": null,\n        \"timestamp\": null,\n        \"status\": \"No Data\"\n      },\n      {\n        \"well\": \"B7\",\n        \"type\": \"Sample 5\",\n        \"value\": null,\n        \"reduced_value\": null,\n        \"timestamp\": null,\n        \"status\": \"No Data\"\n      },\n      {\n        \"well\": \"B8\",\n        \"type\": \"Sample 6\",\n        \"value\": null,\n        \"reduced_value\": null,\n        \"timestamp\": null,\n        \"status\": \"No Data\"\n      }\n    ]\n  },\n  \"reference_info\": {\n    \"all_wells\": \"No Reference\"\n  },\n  \"incomplete_sections\": {\n    \"standards_calculation_table\": {\n      \"status\": \"incomplete\",\n      \"headers\": [\"Sample\", \"Concentration\", \"Wells\", \"Values\", \"Back Calc Conc (pmoles)\", \"Percent Back Calc\"],\n      \"note\": \"Table data appears to be cut off in the provided content\"\n    }\n  }\n}\n```"
+}
+
+================================================================================
+FULL EXTRACTED CONTENT
+================================================================================
+
+
+=== PAGE 1 ===
+# Document Analysis: Experiment #1 - Fluorescence Assay Results
+
+## Document Header
+**Title:** Experiment#1
+
+## Settings Information
+**Endpoint:** Fluorescence  
+**Parameters:** Ex, Auto Cutoff, Em  
+**Lm1:** 365, 435, 440  
+**PMT and Optics:** Auto  
+**Reads:** 6 Flashes/read  
+
+## Well Data Results
+
+### Standard Curve Wells (A1-A6)
+- **A1** (0.0 Std): 25,544 | Reduced: 25,544 | Date: 03-Feb-2025 10:11 | Ref: No Reference
+- **A2** (0.5 Std): 2356.2 | Reduced: 2356.2 | Date: 03-Feb-2025 10:12 | Ref: No Reference  
+- **A3** (1.0 Std): 4613.0 | Reduced: 4613.0 | Date: 03-Feb-2025 10:13 | Ref: No Reference
+- **A4** (1.5 Std): 6842.5 | Reduced: 6842.5 | Date: 03-Feb-2025 10:13 | Ref: No Reference
+- **A5** (2.0 Std): 9023.8 | Reduced: 9023.8 | Date: 03-Feb-2025 10:14 | Ref: No Reference
+- **A6** (2.5 Std): 1.1e4 | Reduced: 1.1e4 | Date: 03-Feb-2025 10:15 | Ref: No Reference
+
+### Control and Sample Wells (B1-B8)
+- **B1** (MUI Blank): 660.08 | Reduced: 660.08 | Date: 03-Feb-2025 10:27 | Ref: No Reference
+- **B2** (Reference): 6996.6 | Reduced: 6996.6 | Date: 03-Feb-2025 10:28 | Ref: No Reference
+- **B3** (Sample 1): 7061.5 | Reduced: 7061.5 | Date: 03-Feb-2025 10:30 | Ref: No Reference
+- **B4** (Sample 2): 6971.6 | Reduced: 6971.6 | Date: 03-Feb-2025 10:31 | Ref: No Reference
+- **B5** (Sample 3): 7409.7 | Reduced: 7409.7 | Date: 03-Feb-2025 10:32 | Ref: No Reference
+- **B6** (Sample 4): No Data | Date: No Data | Ref: No Reference
+- **B7** (Sample 5): No Data | Date: No Data | Ref: No Reference
+- **B8** (Sample 6): No Data | Date: No Data | Ref: No Reference
+
+## Technical Settings
+**Reduction Settings:**  
+Wavelength Combination: fLm1
+
+## Read Information
+- **Instrument:** SpectraMax M3
+- **ROM Version:** v3.0.22 16Feb11
+- **Start Read:** 10:32 03-Feb-2025
+- **Mean Temperature:** 20.2°C
+- **Read By:** jdea
+
+## Standards Calculation Table
+| Sample | Concentration | Wells | Values | Back Calc Conc (pmoles) | Percent Back Calc |
+|--------|---------------|-------|---------|-------------------------|-------------------|
+| 0.0 Std | 0.0 | A1 | 25,544 | -0.017 | -Inf |
+| 0.5 Std | 0.5 | A2 | 2356.174 | 0.506 | 101.14 |
+| 1.0 Std | 1.0 | A3 | 4612.967 | 1.012 | 101.20 |
+| 1.5 Std | 1.5 | A4 | 6842.518 | 1.512 | 100.81 |
+| 2.0 Std | 2.0 | A5 | 9023.809 | 2.001 | 100.07 |
+| 2.5 Std | 2.5 | A6 | 11181.518 | 2.486 | 99.42 |
+
+## Key Calculations
+**0.5 μM / 0.0 μM Std Ratio = 92.240**
+
+## Document Footer
+**QC Information:**  
+QC Verified Protocols/NVT615/2025Q1/101 SOP1033S4 03FEB25 JEN - Document Status: Approved  
+04-Feb-2025 14:46:52  
+Page 1 of 2

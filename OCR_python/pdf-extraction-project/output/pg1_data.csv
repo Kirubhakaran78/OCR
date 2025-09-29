@@ -1,0 +1,283 @@
+Category,Field,Value
+
+=== METADATA ===,,
+Metadata,format,PDF 1.7
+Metadata,title,101 SOP103354 03FEB25 JEN_no annotation.pdf
+Metadata,author,
+Metadata,subject,
+Metadata,keywords,
+Metadata,creator,
+Metadata,producer,Microsoft: Print To PDF
+Metadata,creationDate,D:20250924104458+05'30'
+Metadata,modDate,D:20250924104458+05'30'
+Metadata,trapped,
+Metadata,encryption,None
+
+=== SUMMARY ===,,
+Summary,Document Summary,"# Comprehensive Summary: Fluorescence Analysis Report - Experiment #1
+
+## Document Overview
+This is an approved fluorescence analysis report for Experiment #1, conducted on February 3, 2025, following QC Protocol NVT615/2025Q1/101 SOP1033354. The document represents page 1 of a 2-page technical report with document ID 04-Feb-2025 15:46:52 IN20240101.
+
+## Experimental Setup and Methodology
+The experiment utilized fluorescence spectroscopy with the following technical specifications:
+- **Instrument**: SpectraMax M3 (ROM v3.0.22)
+- **Fluorescence Parameters**: Excitation wavelength at 365nm, emission at 435-440nm with auto cutoff
+- **Detection Settings**: Auto PMT mode with 6 flashes per read
+- **Environmental Conditions**: Mean temperature of 20.2°C
+- **Operator**: jdea
+
+## Standards Calibration Series
+A comprehensive 6-point calibration curve was established using standards ranging from 0.0 to 2.5 concentration units:
+
+| Standard | Concentration | Fluorescence Value | Back-Calculated Concentration | Accuracy |
+|----------|---------------|-------------------|------------------------------|----------|
+| A1 | 0.0 | 25.544 | -0.017 | -Inf |
+| A2 | 0.5 | 2,356.2 | 0.506 | 101.1% |
+| A3 | 1.0 | 4,613.0 | 1.012 | 101.20% |
+| A4 | 1.5 | 6,842.5 | 1.512 | 100.81% |
+| A5 | 2.0 | 9,023.8 | 2.001 | 100.07% |
+| A6 | 2.5 | 11,181.5 | 2.486 | 99.42% |
+
+The calibration demonstrates excellent linearity with accuracy values between 99.42% and 101.20% for all standards except the blank.
+
+## Sample Analysis Results
+The experiment included analysis of:
+- **MUI Blank** (B1): 660.08 fluorescence units
+- **Reference Sample** (B2): 6,996.6 fluorescence units
+- **Sample 1** (B3): 7,061.5 fluorescence units
+- **Sample 2** (B4): 6,971.6 fluorescence units
+- **Sample 3** (B5): 7,409.7 fluorescence units
+- **Samples 4-6** (B6-B8): No data collected
+
+## Key Performance Metrics
+- **Critical Ratio**: 0.5 μM / 0.0 μM Standard Ratio = 92.240
+- **Signal-to-Noise**: Strong signal differentiation between blank (25.544) and lowest standard (2,356.2)
+- **Reproducibility**: Sample values clustered tightly around the reference (6,971.6 - 7,409.7 range)
+
+## Document Purpose and Context
+This appears to be a quality-controlled analytical report for quantitative fluorescence measurements, likely for pharmaceutical, biochemical, or research applications. The high accuracy of the calibration standards and the inclusion of reference materials suggests this is part of a validated analytical method used for precise concentration determinations of fluorescent compounds or substrates.
+
+The report demonstrates successful completion of the analytical run with reliable calibration and consistent sample measurements, though the analysis was incomplete as three samples (B6-B8) were not processed."
+
+=== STRUCTURED DATA ===,,
+Structured Data,raw_extraction,"```json
+{
+  ""document_information"": {
+    ""title"": ""EXPERIMENT #1 - FLUORESCENCE ANALYSIS REPORT"",
+    ""experiment_number"": ""Experiment#1"",
+    ""date"": ""03-Feb-2025"",
+    ""document_status"": ""Approved"",
+    ""qc_protocol"": ""NVT615/2025Q1/101 SOP1033354 03FEB25 JEN"",
+    ""page"": ""1 of 2"",
+    ""document_id"": ""04-Feb-2025 15:46:52 IN20240101""
+  },
+  ""instrument_settings"": {
+    ""endpoint"": {
+      ""type"": ""Fluorescence"",
+      ""mode"": ""Ex, Auto Cutoff, Em"",
+      ""wavelength"": ""Lm1 365, 435, 440""
+    },
+    ""pmt_optics"": {
+      ""mode"": ""Auto"",
+      ""flashes_per_read"": 6
+    },
+    ""reduction_settings"": {
+      ""wavelength_combination"": ""fLm1""
+    }
+  },
+  ""standards_series"": [
+    {
+      ""position"": ""A1"",
+      ""sample_id"": ""0.0 Std"",
+      ""value"": 25.544,
+      ""reduced_value"": 25.544,
+      ""timestamp"": ""03-Feb-2025 10:11"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""A2"",
+      ""sample_id"": ""0.5 Std"",
+      ""value"": 2356.2,
+      ""reduced_value"": 2356.2,
+      ""timestamp"": ""03-Feb-2025 10:12"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""A3"",
+      ""sample_id"": ""1.0 Std"",
+      ""value"": 4613.0,
+      ""reduced_value"": 4613.0,
+      ""timestamp"": ""03-Feb-2025 10:13"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""A4"",
+      ""sample_id"": ""1.5 Std"",
+      ""value"": 6842.5,
+      ""reduced_value"": 6842.5,
+      ""timestamp"": ""03-Feb-2025 10:13"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""A5"",
+      ""sample_id"": ""2.0 Std"",
+      ""value"": 9023.8,
+      ""reduced_value"": 9023.8,
+      ""timestamp"": ""03-Feb-2025 10:14"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""A6"",
+      ""sample_id"": ""2.5 Std"",
+      ""value"": ""1.1e4"",
+      ""reduced_value"": ""1.1e4"",
+      ""timestamp"": ""03-Feb-2025 10:15"",
+      ""reference"": ""No Reference""
+    }
+  ],
+  ""samples_and_controls"": [
+    {
+      ""position"": ""B1"",
+      ""sample_id"": ""MUI Blank"",
+      ""value"": 660.08,
+      ""reduced_value"": 660.08,
+      ""timestamp"": ""03-Feb-2025 10:27"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""B2"",
+      ""sample_id"": ""Reference"",
+      ""value"": 6996.6,
+      ""reduced_value"": 6996.6,
+      ""timestamp"": ""03-Feb-2025 10:28"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""B3"",
+      ""sample_id"": ""Sample 1"",
+      ""value"": 7061.5,
+      ""reduced_value"": 7061.5,
+      ""timestamp"": ""03-Feb-2025 10:30"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""B4"",
+      ""sample_id"": ""Sample 2"",
+      ""value"": 6971.6,
+      ""reduced_value"": 6971.6,
+      ""timestamp"": ""03-Feb-2025 10:31"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""B5"",
+      ""sample_id"": ""Sample 3"",
+      ""value"": 7409.7,
+      ""reduced_value"": 7409.7,
+      ""timestamp"": ""03-Feb-2025 10:32"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""B6"",
+      ""sample_id"": ""Sample 4"",
+      ""value"": null,
+      ""reduced_value"": null,
+      ""timestamp"": ""No Data"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""B7"",
+      ""sample_id"": ""Sample 5"",
+      ""value"": null,
+      ""reduced_value"": null,
+      ""timestamp"": ""No Data"",
+      ""reference"": ""No Reference""
+    },
+    {
+      ""position"": ""B8"",
+      ""sample_id"": ""Sample 6"",
+      ""value"": null,
+      ""reduced_value"": null,
+      ""timestamp"": ""No Data"",
+      ""reference"": ""No Reference""
+    }
+  ],
+  ""read_information"": {
+    ""instrument"": ""SpectraMax M3"",
+    ""rom_version"": ""v3.0.22 16Feb11"",
+    ""start_read"": ""10:32 03-Feb-2025"",
+    ""mean_temperature"": ""20.2°C"",
+    ""read_by"": ""jdea""
+  },
+  ""technical_specifications"": {
+    ""measurement_type"": ""Fluorescence Analysis"",
+    ""excitation_wavelength"": 365,
+    ""emission_wavelengths"": [435, 440],
+    ""temperature_control"": ""20.2°C"",
+    ""automated_settings"": true
+  }
+}"
+
+=== PAGE CONTENT ===,,
+Page Content,Page 1,"# EXPERIMENT #1 - FLUORESCENCE ANALYSIS REPORT
+
+## Document Information
+- **Title**: Experiment#1
+- **Date**: 03-Feb-2025
+- **Document Status**: Approved
+- **QC Protocol**: NVT615/2025Q1/101 SOP1033354 03FEB25 JEN
+- **Page**: 1 of 2
+- **Document ID**: 04-Feb-2025 15:46:52 IN20240101
+
+## Settings Information
+### Endpoint
+- **Fluorescence**: Ex, Auto Cutoff, Em
+- **Wavelength**: Lm1 365, 435, 440
+
+### PMT and Optics
+- **Mode**: Auto
+- **Flashes/read**: 6
+
+## Sample Data Grid
+
+### Standards Series (A1-A6)
+- **A1** - 0.0 Std: 25.544 (Reduced: 25.544) | Date: 03-Feb-2025 10:11 | Ref: No Reference
+- **A2** - 0.5 Std: 2356.2 (Reduced: 2356.2) | Date: 03-Feb-2025 10:12 | Ref: No Reference  
+- **A3** - 1.0 Std: 4613.0 (Reduced: 4613.0) | Date: 03-Feb-2025 10:13 | Ref: No Reference
+- **A4** - 1.5 Std: 6842.5 (Reduced: 6842.5) | Date: 03-Feb-2025 10:13 | Ref: No Reference
+- **A5** - 2.0 Std: 9023.8 (Reduced: 9023.8) | Date: 03-Feb-2025 10:14 | Ref: No Reference
+- **A6** - 2.5 Std: 1.1e4 (Reduced: 1.1e4) | Date: 03-Feb-2025 10:15 | Ref: No Reference
+
+### Controls and Samples (B1-B8)
+- **B1** - MUI Blank: 660.08 (Reduced: 660.08) | Date: 03-Feb-2025 10:27 | Ref: No Reference
+- **B2** - Reference: 6996.6 (Reduced: 6996.6) | Date: 03-Feb-2025 10:28 | Ref: No Reference
+- **B3** - Sample 1: 7061.5 (Reduced: 7061.5) | Date: 03-Feb-2025 10:30 | Ref: No Reference
+- **B4** - Sample 2: 6971.6 (Reduced: 6971.6) | Date: 03-Feb-2025 10:31 | Ref: No Reference
+- **B5** - Sample 3: 7409.7 (Reduced: 7409.7) | Date: 03-Feb-2025 10:32 | Ref: No Reference
+- **B6** - Sample 4: [No data] | Date: No Data | Ref: No Reference
+- **B7** - Sample 5: [No data] | Date: No Data | Ref: No Reference
+- **B8** - Sample 6: [No data] | Date: No Data | Ref: No Reference
+
+## Reduction Settings
+- **Wavelength Combination**: fLm1
+
+## Read Information
+- **Instrument**: SpectraMax M3
+- **ROM**: v3.0.22 16Feb11
+- **Start Read**: 10:32 03-Feb-2025
+- **Mean Temperature**: 20.2°C
+- **Read By**: jdea
+
+## Standards Calibration Table
+
+| Sample | Concentration | Wells | Values | Back Calc Conc (nmoles) | Percent Back Calc |
+|--------|---------------|-------|---------|-------------------------|-------------------|
+| 0.0 Std | 0.0 | A1 | 25.544 | -0.017 | -Inf |
+| 0.5 Std | 0.5 | A2 | 2356.174 | 0.506 | 101.1 |
+| 1.0 Std | 1.0 | A3 | 4612.967 | 1.012 | 101.20 |
+| 1.5 Std | 1.5 | A4 | 6842.518 | 1.512 | 100.81 |
+| 2.0 Std | 2.0 | A5 | 9023.809 | 2.001 | 100.07 |
+| 2.5 Std | 2.5 | A6 | 11181.518 | 2.486 | 99.42 |
+
+## Key Calculation
+**0.5 uM / 0.0 uM Std Ratio = 92.240**"
