@@ -1,0 +1,437 @@
+====================================================================================================
+FLUORESCENCE ASSAY - PDF EXTRACTION RESULTS
+====================================================================================================
+
+PDF File: pg_data2.pdf
+Pages Processed: 3
+
+====================================================================================================
+PDF METADATA
+====================================================================================================
+format: PDF 1.5
+title: 
+author: 
+subject: 
+keywords: 
+creator: Streamline NX
+producer: ABBYY FineReader Engine 11
+creationDate: D:20250324224325Z
+modDate: D:20250324224325Z
+trapped: 
+encryption: None
+
+====================================================================================================
+DOCUMENT SUMMARY
+====================================================================================================
+## Fluorescence Assay Report Summary
+
+**Experiment Type & Purpose:**
+- Fluorescence quantitative assay (Experiment #1)
+- Standard curve-based analysis using concentration standards from 0.0 to 2.5 units
+- QC-verified protocol (SOP103354) for analytical measurement
+
+**Key Details:**
+- **Standards:** 6 concentration points (0.0, 0.5, 1.0, 1.5, 2.0, 2.5 Std)
+- **Test Samples:** 5 samples plus reference and MUI blank controls
+- **Analysis Date:** January 27, 2025
+- **Status:** QC verified and approved (March 24, 2025)
+
+**Main Findings:**
+- **Standard Curve:** Shows expected dose-response relationship (122 to 27,000 fluorescence units)
+- **Sample Results:** Most samples showed moderate fluorescence (9,577-15,000 units)
+- **Controls:** MUI blank appropriately low (1,745 units), reference within expected range (15,000 units)
+- **Data Quality:** One sample (Sample 5, well B7) failed to generate data
+
+**Note:** This appears to be page 1 of a 3-page report, so additional analytical details, calculations, and conclusions may be contained in subsequent pages.
+
+====================================================================================================
+COMPLETE EXTRACTED CONTENT
+====================================================================================================
+
+
+=== PAGE 1 ===
+```json
+{
+  "experiment_info": {
+    "experiment_number": "Experiment#1",
+    "document_status": "Approved",
+    "qc_info": "QC Verified Protocols/NVT799/2025Q1/J01 SOP103354 27JAN25 AB",
+    "approval_date": "24-Mar-2025 15:04 GMT",
+    "page": "1 of 3"
+  },
+  
+  "well_plate_data": [
+    {
+      "well_id": "A1",
+      "sample_type": "0.0 Std",
+      "raw_value": 122.14,
+      "reduced_value": 122.14,
+      "date": "27-Jan-2025",
+      "time": "15:04",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "A2",
+      "sample_type": "0.5 Std",
+      "raw_value": 6186.9,
+      "reduced_value": 6186.9,
+      "date": "27-Jan-2025",
+      "time": "15:05",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "A3",
+      "sample_type": "1.0 Std",
+      "raw_value": 1.2e4,
+      "reduced_value": 1.2e4,
+      "date": "27-Jan-2025",
+      "time": "15:05",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "A4",
+      "sample_type": "1.5 Std",
+      "raw_value": 1.7e4,
+      "reduced_value": 1.7e4,
+      "date": "27-Jan-2025",
+      "time": "15:06",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "A5",
+      "sample_type": "2.0 Std",
+      "raw_value": 2.2e4,
+      "reduced_value": 2.2e4,
+      "date": "27-Jan-2025",
+      "time": "15:07",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "A6",
+      "sample_type": "2.5 Std",
+      "raw_value": 2.7e4,
+      "reduced_value": 2.7e4,
+      "date": "27-Jan-2025",
+      "time": "15:08",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B1",
+      "sample_type": "MUI Blank",
+      "raw_value": 1744.8,
+      "reduced_value": 1744.8,
+      "date": "27-Jan-2025",
+      "time": "15:34",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B2",
+      "sample_type": "Reference",
+      "raw_value": 1.5e4,
+      "reduced_value": 1.5e4,
+      "date": "27-Jan-2025",
+      "time": "15:35",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B3",
+      "sample_type": "Sample 1",
+      "raw_value": 1.5e4,
+      "reduced_value": 1.5e4,
+      "date": "27-Jan-2025",
+      "time": "15:36",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B4",
+      "sample_type": "Sample 2",
+      "raw_value": 1.5e4,
+      "reduced_value": 1.5e4,
+      "date": "27-Jan-2025",
+      "time": "15:38",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B5",
+      "sample_type": "Sample 3",
+      "raw_value": 9576.6,
+      "reduced_value": 9576.6,
+      "date": "27-Jan-2025",
+      "time": "15:39",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B6",
+      "sample_type": "Sample 4",
+      "raw_value": 1.1e4,
+      "reduced_value": 1.1e4,
+      "date": "27-Jan-2025",
+      "time": "15:40",
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B7",
+      "sample_type": "Sample 5",
+      "raw_value": null,
+      "reduced_value": null,
+      "date": "No Data",
+      "time": null,
+      "reference": "No Reference"
+    },
+    {
+      "well_id": "B8",
+      "sample_type": "Sample 6",
+      "raw_value": null,
+      "reduced_value": null,
+      "date": "No Data",
+      "time": null,
+      "reference": "No Reference"
+    }
+  ],
+  
+  "settings_information": {
+    "endpoint": "Fluorescence",
+    "excitation_wavelength": 365,
+    "auto_cutoff": 435,
+    "emission_wavelength": 440,
+    "pmt_and_optics": "Auto",
+    "flashes_per_read": 6,
+    "wavelength_combination": "Lm1"
+  },
+  
+  "standards_table": [
+    {
+      "sample": "0.0 Std",
+      "concentration": 0.0,
+      "wells": "A1",
+      "values": 122.141,
+      "back_calc_conc_nmoles": -0.047,
+      "percent_back_calc": "-Inf"
+    },
+    {
+      "sample": "0.5 Std",
+      "concentration": 0.5,
+      "wells": "A2",
+      "values": 6186.902,
+      "back_calc_conc_nmoles": 0.520,
+      "percent_back_calc": 103.99
+    },
+    {
+      "sample": "1.0 Std",
+      "concentration": 1.0,
+      "wells": "A3",
+      "values": 12047.385,
+      "back_calc_conc_nmoles": 1.068,
+      "percent_back_calc": 106.81
+    },
+    {
+      "sample": "1.5 Std",
+      "concentration": 1.5,
+      "wells": "A4",
+      "values": 16623.293,
+      "back_calc_conc_nmoles": 1.496,
+      "percent_back_calc": 99.74
+    },
+    {
+      "sample": "2.0 Std",
+      "concentration": 2.0,
+      "wells": "A5",
+      "values": 21584.516,
+      "back_calc_conc_nmoles": 1.960,
+      "percent_back_calc": 98.01
+    },
+    {
+      "sample": "2.5 Std",
+      "concentration": 2.5,
+      "wells": "A6",
+      "values": 27385.943,
+      "back_calc_conc_nmoles": 2.503,
+      "percent_back_calc": 100.12
+    }
+  ],
+  
+  "read_information": {
+    "instrument_model": "SpectraMax M3",
+    "rom_version": "v3.0.22 16Feb11",
+    "start_read": "15:39 27-Jan-2025",
+    "mean_temperature": "22.5°C",
+    "read_by": "ai908263"
+  },
+  
+  "calculated_values": {
+    "ratio_0_5_uM_to_0_0_uM_std": 50.654
+  },
+  
+  "reduction_settings": {
+    "wavelength_combination": "Lm1"
+  }
+}
+```
+
+=== PAGE 2 ===
+Looking at this fluorescence assay PDF page, I can extract the following data:
+
+```json
+{
+  "experiment_info": {
+    "experiment_number": "Experiment#1",
+    "document_status": "Approved",
+    "qc_protocol": "QC Verified Protocols/NVT799/2025Q1/101 SOP103354 27JAN25 AB",
+    "print_info": {
+      "date_time": "24-Mar-2025 15:31:40",
+      "printed_by": "lu906129"
+    },
+    "page": "2 of 3"
+  },
+
+  "standard_curve": {
+    "title": "Standard Curve",
+    "axes": {
+      "x_axis": "4-MU Concentrations (nmol)",
+      "y_axis": "Values"
+    },
+    "curve_fit": {
+      "type": "Linear",
+      "equation": "y = A + Bx",
+      "r_squared": 0.998,
+      "parameters": {
+        "A": {
+          "estimated_value": 628.3,
+          "std_error": 364.7,
+          "confidence_interval": "[-384.3, 1641]"
+        },
+        "B": {
+          "estimated_value": "1.07e+4",
+          "std_error": 240.9,
+          "confidence_interval": "[1.00e+4, 1.14e+4]"
+        }
+      }
+    },
+    "data_points": [
+      {"concentration": 0, "value": 0},
+      {"concentration": 0.5, "value": 6000},
+      {"concentration": 1.0, "value": 12500},
+      {"concentration": 1.5, "value": 17000},
+      {"concentration": 2.0, "value": 22000},
+      {"concentration": 2.5, "value": 27500}
+    ]
+  },
+
+  "sample_results": {
+    "mui_blank": {
+      "sample": "MUI Blank",
+      "wells": "B1",
+      "values": 1744.770,
+      "nmoles": 0.104
+    },
+    
+    "reference_lot": {
+      "lot_id": "rhIDU-1123-010",
+      "sample": "Reference",
+      "wells": "B2",
+      "values": 15414.516,
+      "nmoles": 1.383,
+      "blank_corrected": 1.279,
+      "dilution": 100000,
+      "activity": 85.244,
+      "reference_activity_u_ml": 85
+    },
+
+    "test_sample": {
+      "sample_id": "LIMS 516448",
+      "sample": "Sample 1",
+      "wells": "B3",
+      "values": 14668.706,
+      "nmoles": 1.315,
+      "blank_corrected": 1.211,
+      "dilution": 100000,
+      "activity": 80.718
+    }
+  },
+
+  "curve_fit_results": {
+    "weighting": "Fixed",
+    "dataset": "Standards@Experiment#1: Value vs Concentration"
+  },
+
+  "table_structure": {
+    "columns": ["Sample", "Wells", "Values", "nmoles", "BlankCorrected", "Dilution", "Activity"],
+    "samples_processed": 3
+  }
+}
+```
+
+This page shows the results of a fluorescence-based enzyme activity assay with:
+- A linear standard curve with excellent fit (R² = 0.998)
+- Results for a blank, reference standard, and test sample
+- All samples processed with 100,000-fold dilution
+- Final activities calculated in U/mL units
+- Reference activity of 85 U/mL used as control
+
+=== PAGE 3 ===
+```json
+{
+  "document_info": {
+    "experiment": "Experiment #1",
+    "page": "3 of 3",
+    "qc_info": "QC Verified Protocols/NVT799/2025Q1/101 SOP103354 27JAN25 AB - Document Status: Approved",
+    "date": "24-Mar-2025 16:06:29"
+  },
+  "sample_results": [
+    {
+      "sample_id": "LIMS 516449",
+      "sample_name": "Sample 2",
+      "activity_unit_ml": 80.71751,
+      "table_data": {
+        "wells": "B4",
+        "values": 15300.325,
+        "nmoles": 1.372,
+        "blank_corrected": 1.268,
+        "dilution": 100000,
+        "activity": 84.532
+      },
+      "final_activity": 84.53153,
+      "status": "R - Outside standard range"
+    },
+    {
+      "sample_id": "LIMS 516450",
+      "sample_name": "Sample 3",
+      "activity_unit_ml": 48.83889,
+      "table_data": {
+        "wells": "B5",
+        "values": 9576.620,
+        "nmoles": 0.837,
+        "blank_corrected": 0.733,
+        "dilution": 100000,
+        "activity": 48.639
+      },
+      "final_activity": 48.83889,
+      "status": "R - Outside standard range"
+    },
+    {
+      "sample_id": "LIMS 516451",
+      "sample_name": "Sample 4",
+      "activity_unit_ml": 54.61496,
+      "table_data": {
+        "wells": "B6",
+        "values": 10502.876,
+        "nmoles": 0.924,
+        "blank_corrected": 0.819,
+        "dilution": 100000,
+        "activity": 54.615
+      },
+      "final_activity": 54.61496,
+      "status": "R - Outside standard range"
+    }
+  ],
+  "table_headers": [
+    "Sample",
+    "Wells",
+    "Values",
+    "nmoles",
+    "BlankCorrected",
+    "Dilution",
+    "Activity"
+  ]
+}
+```

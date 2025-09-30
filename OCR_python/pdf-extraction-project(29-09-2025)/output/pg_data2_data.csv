@@ -1,0 +1,70 @@
+Section,Category,Field,Value,Additional_Info
+
+METADATA,,,,
+METADATA,PDF Info,format,PDF 1.5,
+METADATA,PDF Info,title,,
+METADATA,PDF Info,author,,
+METADATA,PDF Info,subject,,
+METADATA,PDF Info,keywords,,
+METADATA,PDF Info,creator,Streamline NX,
+METADATA,PDF Info,producer,ABBYY FineReader Engine 11,
+METADATA,PDF Info,creationDate,D:20250324224325Z,
+METADATA,PDF Info,modDate,D:20250324224325Z,
+METADATA,PDF Info,trapped,,
+METADATA,PDF Info,encryption,None,
+
+INSTRUMENT SETTINGS,,,,
+
+WELL PLATE DATA,,,,
+WELL DATA,Well_ID,Sample_Type,Value,Additional_Details
+
+STANDARDS CALIBRATION,,,,
+STANDARDS,Sample,Concentration,Well,Value,Back_Calc
+
+SAMPLES DATA,,,,
+
+SUMMARY,,,,
+SUMMARY,Document Summary,"## Fluorescence Assay Report Summary
+
+**Experiment Type & Purpose:**
+- Fluorescence quantitative assay (Experiment #1)
+- Standard curve-based analysis using concentration standards from 0.0 to 2.5 units
+- QC-verified protocol (SOP103354) for analytical measurement
+
+**Key Details:**
+- **Standards:** 6 concentration points (0.0, 0.5, 1.0, 1.5, 2.0, 2.5 Std)
+- **Test Samples:** 5 samples plus reference and MUI blank controls
+- **Analysis Date:** January 27, 2025
+- **Status:** QC verified and approved (March 24, 2025)
+
+**Main Findings:**
+- **Standard Curve:** Shows expected dose-response relationship (122 to 27,000 fluorescence units)
+- **Sample Results:** Most samples showed moderate fluorescence (9,577-15,000 units)
+- **Controls:** MUI blank appropriately low (1,745 units), reference within expected range (15,000 units)
+- **Data Quality:** One sample (Sample 5, well B7) failed to generate data
+
+**Note:** This appears to be page 1 of a 3-page report, so additional analytical details, calculations, and conclusions may be contained in subsequent pages.",,
+
+PAGE CONTENT,,,,
+PAGE,Page_1,"```json
+{
+  ""experiment_info"": {
+    ""experiment_number"": ""Experiment#1"",
+    ""document_status"": ""Approved"",
+    ""qc_info"": ""QC Verified Protocols/NVT799/2025Q1/J01 SOP103354 27JAN25 AB"",
+    ""approva...",,
+PAGE,Page_2,"Looking at this fluorescence assay PDF page, I can extract the following data:
+
+```json
+{
+  ""experiment_info"": {
+    ""experiment_number"": ""Experiment#1"",
+    ""document_status"": ""Approved"",
+    ""qc_pro...",,
+PAGE,Page_3,"```json
+{
+  ""document_info"": {
+    ""experiment"": ""Experiment #1"",
+    ""page"": ""3 of 3"",
+    ""qc_info"": ""QC Verified Protocols/NVT799/2025Q1/101 SOP103354 27JAN25 AB - Document Status: Approved"",
+    ""...",,

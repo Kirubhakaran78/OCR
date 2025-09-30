@@ -397,7 +397,7 @@ class EnhancedPDFExtractor:
 
 def main():
     """Main execution"""
-    pdf_path = "pg1.pdf"  # Change this to your PDF file
+    pdf_path = "pg_data2.pdf"  # Change this to your PDF file
     output_path = "output"
     
     print("🚀 Starting Enhanced PDF Extraction")

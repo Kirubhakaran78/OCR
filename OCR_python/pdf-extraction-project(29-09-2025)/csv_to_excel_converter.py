@@ -19,8 +19,18 @@ def csv_to_excel_key_value(csv_file: str, excel_file: str):
         print(f"❌ CSV file not found: {csv_file}")
         return
 
-    # Read CSV
-    df = pd.read_csv(csv_path, delimiter=",", quotechar='"', keep_default_na=False)
+    # # Read CSV
+    # df = pd.read_csv(csv_path, delimiter=",", quotechar='"', keep_default_na=False)
+
+    # Read CSV safely
+df = pd.read_csv(
+    csv_path,
+    delimiter=",",
+    quotechar='"',
+    keep_default_na=False,
+    engine="python",      # handles irregular rows
+    on_bad_lines="warn"   # warn if row is malformed
+)
 
     # Create workbook and sheet
     wb = Workbook()
@@ -79,6 +89,6 @@ def csv_to_excel_key_value(csv_file: str, excel_file: str):
     print(f"✅ Excel created successfully: {excel_path}")
 
 if __name__ == "__main__":
-    csv_path = "output/pg1_data.csv"
-    excel_path = "output/pg1_data_key_value.xlsx"
+    csv_path = "output/pg_data2_data.csv"
+    excel_path = "output/pg_data2_data.xlsx"
     csv_to_excel_key_value(csv_path, excel_path)
